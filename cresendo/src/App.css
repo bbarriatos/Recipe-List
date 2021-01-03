@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 0;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.recipeList {
+  font-size: 0;
+}
+
+.recipeList > div{
+  display: inline-block;
+  width: 23.3%;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-content {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.recipeList h2 {
+  font-size: 20px;
+}
+
+.recipeList p, .recipeList a {
+  font-size: 16px;
+  margin: 0;
+}
+
+.recipeList a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.details {
+  display: flex;
+  padding: 3em 0;
+}
+
+.details > div {
+  padding: 0 3em;
+  padding-left: 0;
+}
+
+.image-block {
+  width: 30%;
+}
+
+.content-block {
+  width: 70%;
+}
+
+.specials {
+  color: red;
+  padding-left: 1em;
+}
+
+.red {
+  color: red;
+  margin: 0;
+}
+
+.ingredient{
+  padding: 10px 0;
+}
